@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INDEX</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #A3CEF1;
+  color: #070A0D;
+  font-size: 30px;
+  font-family: times new roman;}
+
+nav {	float: left;
+  	width: 15%;
+  	background: #6096BA;
+ 	padding: 15px;}
+
+nav ul {	list-style-type: none;
+  		padding: 0;}
+
+table {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  font-family: times new roman;
+  	font-size: 17px;
+	text-align: justify}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;}
+
+body {background-color: #C1CED7;}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Tabel</h1>
+</div>
+
+<section>
+  <nav>
+    <ul>
+     
+    <br><a href="./index.html">Halaman 1</a></br>
+    <br><a href="./gambar.html">Halaman 2</a></br>
+<br>    <a href="./form.html">Halaman 3</a></br>
+    <br><a href="./tabel.html">Halaman 4</a></br>
+    </ul>
+  </nav>
+<table border=“1”>
+
+		<tr>
+			<th> No</th>
+			<th> Kelas</th>
+			<th> Nama</th>
+			<th> Jenis Kelamin</th>
+		</tr>
+
+		<tr>
+			<td> 1</td>
+			<td> XII MIPA 1</td>
+			<th> Dhika</th>
+			<td> L</td>
+		</tr>
+
+		<tr>
+			<td> 2</td>
+			<td> XII MIPA 2</td>
+			<th> Muthiah</th>
+			<td> P</td>
+		</tr>
+
+		<tr>
+			<td> 3</td>
+			<td> XII MIPA 3</td>
+			<th> Habibah </th>
+			<td> P</td>
+		</tr>
+
+		<tr>
+			<td> 4</td>
+			<td> XII MIPA 4</td>
+			<th> Raisya </th>
+			<td> P</td>
+		</tr>
+
+		<tr>
+			<td> 5</td>
+			<td> XII MIPA 5</td>
+			<th> Dehan </th>
+			<td> L</td>
+		</tr>
+
+		<tr>
+			<td> 6</td>
+			<td> XII MIPA 6</td>
+			<th> Ivoni </th>
+			<td> P</td>
+		</tr>
+
+		<tr>
+			<td> 7</td>
+			<td> XII IPS</td>
+			<th> Davin </th>
+			<td> L</td>
+		</tr>
+</section>
+
+
+</body>
+</html>
